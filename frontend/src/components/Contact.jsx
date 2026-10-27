@@ -81,22 +81,22 @@ export default function Contact({ setActiveTab }) {
 
   const studioGuarantees = [
     {
-      icon: <Award className="w-6 h-6 text-[#B8860B]" />,
+      icon: <Award className="w-5 h-5 sm:w-6 sm:h-6 text-[#B8860B]" />,
       title: "100% Price Transparency",
       desc: "No hidden charges on-site or post-event. All lenses and crew gear are explicitly covered."
     },
     {
-      icon: <ShieldCheck className="w-6 h-6 text-[#B8860B]" />,
+      icon: <ShieldCheck className="w-5 h-5 sm:w-6 sm:h-6 text-[#B8860B]" />,
       title: "60-Day Secure RAW Vault",
       desc: "Full sensor recordings archived safely on dual hardware drives + private cloud repository."
     },
     {
-      icon: <Clock className="w-6 h-6 text-[#B8860B]" />,
+      icon: <Clock className="w-5 h-5 sm:w-6 sm:h-6 text-[#B8860B]" />,
       title: "Guaranteed Milestone Delivery",
       desc: "Instagram 4K Teaser in 7 days. Full documentary cuts and portfolios delivered on schedule."
     },
     {
-      icon: <Camera className="w-6 h-6 text-[#B8860B]" />,
+      icon: <Camera className="w-5 h-5 sm:w-6 sm:h-6 text-[#B8860B]" />,
       title: "Supervised by Sandeep Kumar",
       desc: "Every wedding ceremony and portrait session is directed personally under Lead Photographer Sandeep Kumar."
     }
@@ -138,21 +138,21 @@ export default function Contact({ setActiveTab }) {
       name: "WhatsApp",
       action: "Chat Now",
       link: "https://wa.me/918899626006?text=Namaste%20Sandeep%20Ji,%20I%20want%20to%20inquire%20about%20booking%20dates.",
-      icon: <FaWhatsapp size={32} className="text-emerald-600" />,
+      icon: <FaWhatsapp size={26} className="sm:text-[32px] text-emerald-600" />,
       borderHover: "hover:border-emerald-500 hover:shadow-[0_0_25px_rgba(16,185,129,0.35)]"
     },
     {
       name: "Direct Call",
       action: "Call Now",
       link: "tel:8899626006",
-      icon: <Phone size={30} className="text-amber-700" />,
+      icon: <Phone size={24} className="sm:text-[30px] text-amber-700" />,
       borderHover: "hover:border-amber-500 hover:shadow-[0_0_25px_rgba(217,119,6,0.35)]"
     },
     {
       name: "Instagram",
       action: "Follow Us",
       link: "https://www.instagram.com/thedev.photography/",
-      icon: <FaInstagram size={30} className="text-pink-600" />,
+      icon: <FaInstagram size={24} className="sm:text-[30px] text-pink-600" />,
       borderHover: "hover:border-pink-500 hover:shadow-[0_0_25px_rgba(236,72,153,0.35)]"
     }
   ];
@@ -162,21 +162,21 @@ export default function Contact({ setActiveTab }) {
       name: "Studio Mail",
       action: "Send Email",
       link: "mailto:dev.studio27291@gmail.com",
-      icon: <Mail size={30} className="text-stone-800" />,
+      icon: <Mail size={24} className="sm:text-[30px] text-stone-800" />,
       borderHover: "hover:border-stone-600 hover:shadow-[0_0_25px_rgba(87,83,78,0.35)]"
     },
     {
       name: "Facebook",
       action: "Connect",
       link: "https://www.facebook.com/share/19CsBmneCt/",
-      icon: <FaFacebook size={30} className="text-blue-600" />,
+      icon: <FaFacebook size={24} className="sm:text-[30px] text-blue-600" />,
       borderHover: "hover:border-blue-500 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)]"
     },
     {
       name: "YouTube",
       action: "Watch Films",
       link: "https://youtube.com/@thedevphotography",
-      icon: <FaYoutube size={30} className="text-red-600" />,
+      icon: <FaYoutube size={24} className="sm:text-[30px] text-red-600" />,
       borderHover: "hover:border-red-500 hover:shadow-[0_0_25px_rgba(239,68,68,0.35)]"
     }
   ];
@@ -226,21 +226,21 @@ export default function Contact({ setActiveTab }) {
         <div className="pt-2 text-center max-w-4xl mx-auto space-y-3 sm:space-y-4 bg-[#FFFCF6] p-6 sm:p-10 rounded-3xl border border-[#D4AF37]/40 shadow-xl">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-[#FDF6E3] border border-[#D4AF37]/50 shadow-sm">
             <span className="w-2 h-2 rounded-full bg-[#C5A059] animate-pulse shadow-[0_0_8px_#C5A059]" />
-            <span className="font-mono-tech text-xs font-bold tracking-[0.25em] text-[#B8860B] uppercase">
+            <span className="font-mono-tech text-[10px] sm:text-xs font-bold tracking-[0.25em] text-[#B8860B] uppercase">
               Bespoke Concierge • The Dev Photography
             </span>
           </div>
 
           <div className="space-y-1">
-            <h1 className="font-bodoni text-4xl sm:text-6xl lg:text-7xl font-bold text-[#2C241D] tracking-tight leading-[1.05]">
+            <h1 className="font-bodoni text-3xl sm:text-6xl lg:text-7xl font-bold text-[#2C241D] tracking-tight leading-[1.05]">
               Let's Begin Your
             </h1>
-            <h2 className="font-script text-5xl sm:text-7xl font-normal text-[#B8860B] lowercase">
+            <h2 className="font-script text-4xl sm:text-7xl font-normal text-[#B8860B] lowercase">
               visual legacy in Saharanpur.
             </h2>
           </div>
 
-          <p className="font-sans-clean text-[#6B5B52] text-sm sm:text-base tracking-widest uppercase font-medium max-w-2xl mx-auto pt-1">
+          <p className="font-sans-clean text-[#6B5B52] text-[11px] sm:text-base tracking-widest uppercase font-medium max-w-2xl mx-auto pt-1">
             Studio Headquarters: Behat Adda, Raghav Puram, Saharanpur, UP - 247001 • Directed by Sandeep Kumar
           </p>
         </div>
@@ -248,35 +248,35 @@ export default function Contact({ setActiveTab }) {
         {/* =========================================================================
             2. MODERN CIRCULAR CONNECT HUB (2 ROWS x 3 COLUMNS)
         ========================================================================= */}
-        <div className="space-y-10">
+        <div className="space-y-8">
           <div className="text-center space-y-2">
-            <span className="font-mono-tech text-sm font-bold tracking-[0.3em] text-[#B8860B] uppercase block">
+            <span className="font-mono-tech text-xs sm:text-sm font-bold tracking-[0.3em] text-[#B8860B] uppercase block">
               Direct Studio Access Hub
             </span>
-            <h3 className="font-bodoni text-3xl sm:text-4xl font-bold text-[#2C241D]">
+            <h3 className="font-bodoni text-2xl sm:text-4xl font-bold text-[#2C241D]">
               Connect Instantly with Our Desk
             </h3>
           </div>
 
-          <div className="space-y-8 max-w-4xl mx-auto">
+          <div className="space-y-6 sm:space-y-8 max-w-4xl mx-auto">
             {/* Row 1 */}
-            <div className="grid grid-cols-3 gap-4 sm:gap-8 justify-center">
+            <div className="grid grid-cols-3 gap-3 sm:gap-8 justify-center">
               {circularHubsRow1.map((hub, idx) => (
                 <a
                   key={idx}
                   href={hub.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-col items-center text-center group cursor-pointer space-y-3"
+                  className="flex flex-col items-center text-center group cursor-pointer space-y-2.5 sm:space-y-3"
                 >
                   <div className={`w-20 h-20 sm:w-28 sm:h-28 rounded-full bg-[#FFFCF6] border-2 border-[#D4AF37]/50 flex items-center justify-center shadow-lg transition-all duration-400 ${hub.borderHover} group-hover:scale-105`}>
                     {hub.icon}
                   </div>
-                  <div className="space-y-1">
-                    <h4 className="font-bodoni text-base sm:text-xl font-bold text-[#2C241D] group-hover:text-[#B8860B] transition-colors">
+                  <div className="space-y-0.5 sm:space-y-1">
+                    <h4 className="font-bodoni text-sm sm:text-xl font-bold text-[#2C241D] group-hover:text-[#B8860B] transition-colors">
                       {hub.name}
                     </h4>
-                    <span className="font-mono-tech text-xs sm:text-sm text-[#B8860B] font-bold uppercase tracking-wider block">
+                    <span className="font-mono-tech text-[10px] sm:text-sm text-[#B8860B] font-bold uppercase tracking-wider block">
                       {hub.action} →
                     </span>
                   </div>
@@ -285,23 +285,23 @@ export default function Contact({ setActiveTab }) {
             </div>
 
             {/* Row 2 */}
-            <div className="grid grid-cols-3 gap-4 sm:gap-8 justify-center">
+            <div className="grid grid-cols-3 gap-3 sm:gap-8 justify-center">
               {circularHubsRow2.map((hub, idx) => (
                 <a
                   key={idx}
                   href={hub.link}
                   target="_blank"
                   rel="noreferrer"
-                  className="flex flex-col items-center text-center group cursor-pointer space-y-3"
+                  className="flex flex-col items-center text-center group cursor-pointer space-y-2.5 sm:space-y-3"
                 >
                   <div className={`w-20 h-20 sm:w-28 sm:h-28 rounded-full bg-[#FFFCF6] border-2 border-[#D4AF37]/50 flex items-center justify-center shadow-lg transition-all duration-400 ${hub.borderHover} group-hover:scale-105`}>
                     {hub.icon}
                   </div>
-                  <div className="space-y-1">
-                    <h4 className="font-bodoni text-base sm:text-xl font-bold text-[#2C241D] group-hover:text-[#B8860B] transition-colors">
+                  <div className="space-y-0.5 sm:space-y-1">
+                    <h4 className="font-bodoni text-sm sm:text-xl font-bold text-[#2C241D] group-hover:text-[#B8860B] transition-colors">
                       {hub.name}
                     </h4>
-                    <span className="font-mono-tech text-xs sm:text-sm text-[#B8860B] font-bold uppercase tracking-wider block">
+                    <span className="font-mono-tech text-[10px] sm:text-sm text-[#B8860B] font-bold uppercase tracking-wider block">
                       {hub.action} →
                     </span>
                   </div>
@@ -312,7 +312,7 @@ export default function Contact({ setActiveTab }) {
         </div>
 
         {/* =========================================================================
-            3. RESERVATION FORM + STUDIO HEADQUARTERS (MAP REMOVED)
+            3. RESERVATION FORM + STUDIO HEADQUARTERS
         ========================================================================= */}
         <div id="reservation-form-section" className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           
@@ -322,7 +322,7 @@ export default function Contact({ setActiveTab }) {
               <span className="text-[#B8860B] font-mono-tech text-xs sm:text-sm tracking-[0.35em] uppercase block font-bold">
                 [ DATE RESERVATION ]
               </span>
-              <h3 className="font-bodoni text-3xl sm:text-4xl font-bold text-[#2C241D] tracking-wide">
+              <h3 className="font-bodoni text-2xl sm:text-4xl font-bold text-[#2C241D] tracking-wide">
                 Reserve Studio Availability
               </h3>
               <p className="font-sans-clean text-xs sm:text-sm text-[#6B5B52]">
@@ -430,7 +430,7 @@ export default function Contact({ setActiveTab }) {
 
           {/* Right Column: Studio Headquarters Card */}
           <div className="lg:col-span-5 space-y-6">
-            <div className="glass-luxury-panel rounded-3xl p-8 text-left space-y-5 border border-[#D4AF37]/40 shadow-xl bg-[#FFFCF6]">
+            <div className="glass-luxury-panel rounded-3xl p-6 sm:p-8 text-left space-y-4 border border-[#D4AF37]/40 shadow-xl bg-[#FFFCF6]">
               <span className="font-mono-tech text-xs font-bold tracking-[0.3em] text-[#B8860B] uppercase block">
                 STUDIO HEADQUARTERS
               </span>
@@ -478,34 +478,37 @@ export default function Contact({ setActiveTab }) {
         </div>
 
         {/* =========================================================================
-            4. DIRECTORIAL SAFEGUARDS & GUARANTEES
+            4. DIRECTORIAL SAFEGUARDS & GUARANTEES (4 IN 1 ROW ON LAPTOP / 2 ON MOBILE)
         ========================================================================= */}
-        <section className="glass-luxury-panel rounded-3xl p-8 sm:p-12 border border-[#D4AF37]/40 shadow-xl space-y-8 bg-[#FFFCF6]">
+        <section className="glass-luxury-panel rounded-3xl p-6 sm:p-12 border border-[#D4AF37]/40 shadow-xl space-y-6 sm:space-y-8 bg-[#FFFCF6]">
           <div className="text-center space-y-2 max-w-2xl mx-auto">
             <span className="font-mono-tech text-xs sm:text-sm font-bold tracking-[0.3em] text-[#B8860B] uppercase block">
               STUDIO COMMITMENT
             </span>
-            <h3 className="font-bodoni text-3xl sm:text-4xl font-bold text-[#2C241D] tracking-tight">
+            <h3 className="font-bodoni text-2xl sm:text-4xl font-bold text-[#2C241D] tracking-tight">
               Directorial Safeguards & Guarantees
             </h3>
-            <p className="font-sans-clean text-sm sm:text-base text-[#6B5B52]">
+            <p className="font-sans-clean text-xs sm:text-base text-[#6B5B52]">
               Every client contract is backed by uncompromising technical and operational safeguards.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* Grid setup: 2 columns on mobile/tablet, 4 columns on large desktop */}
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
             {studioGuarantees.map((item, idx) => (
               <div 
                 key={idx}
-                className="bg-[#FDF6E3] border border-[#D4AF37]/40 rounded-2xl p-6 space-y-4 hover:bg-white hover:border-[#B8860B] transition-all duration-300 shadow-sm text-left"
+                className="bg-[#FDF6E3] border border-[#D4AF37]/40 rounded-2xl p-4 sm:p-6 space-y-3 hover:bg-white hover:border-[#B8860B] transition-all duration-300 shadow-sm text-left flex flex-col justify-between"
               >
-                <div className="w-12 h-12 rounded-2xl bg-[#FFFCF6] border border-[#D4AF37]/40 flex items-center justify-center shrink-0 shadow-xs">
-                  {item.icon}
+                <div className="space-y-3">
+                  <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl sm:rounded-2xl bg-[#FFFCF6] border border-[#D4AF37]/40 flex items-center justify-center shrink-0 shadow-xs">
+                    {item.icon}
+                  </div>
+                  <h4 className="font-bodoni text-base sm:text-xl font-bold text-[#2C241D] leading-tight">
+                    {item.title}
+                  </h4>
                 </div>
-                <h4 className="font-bodoni text-lg sm:text-xl font-bold text-[#2C241D] leading-tight">
-                  {item.title}
-                </h4>
-                <p className="font-sans-clean text-xs sm:text-sm text-[#6B5B52] leading-relaxed">
+                <p className="font-sans-clean text-[11px] sm:text-sm text-[#6B5B52] leading-relaxed pt-1">
                   {item.desc}
                 </p>
               </div>
@@ -514,27 +517,27 @@ export default function Contact({ setActiveTab }) {
         </section>
 
         {/* =========================================================================
-            🌟 5. 8 REAL GOOGLE REVIEWS WITH "WRITE A REVIEW" & "SEE MORE" BUTTONS
+            🌟 5. 8 REAL GOOGLE REVIEWS (3-4 CARDS PER ROW ON LARGE, CLEAN ON MOBILE)
         ========================================================================= */}
         <section className="space-y-8">
           <div className="text-center space-y-3">
             <span className="font-mono-tech text-xs sm:text-sm font-bold tracking-[0.3em] text-[#B8860B] uppercase block">
               GOOGLE REVIEWS & TESTAMENTS
             </span>
-            <h3 className="font-bodoni text-3xl sm:text-4xl font-bold text-[#2C241D]">
+            <h3 className="font-bodoni text-2xl sm:text-4xl font-bold text-[#2C241D]">
               Verified Stories from Our Couples
             </h3>
-            <p className="font-sans-clean text-sm sm:text-base text-[#6B5B52]">
+            <p className="font-sans-clean text-xs sm:text-base text-[#6B5B52]">
               Real feedback from our Google Maps profile highlighting our professional team execution.
             </p>
 
-            {/* Action Buttons: Write a Review & See More */}
-            <div className="pt-2 flex flex-wrap items-center justify-center gap-4">
+            {/* Action Buttons */}
+            <div className="pt-2 flex flex-wrap items-center justify-center gap-3">
               <a 
                 href="https://www.google.com/maps/place/The+Dev+Photography/@29.981185,77.5523914,17z/data=!4m8!3m7!1s0xafad229d47f9bcd1:0xc72487cfc31f495c!8m2!3d29.981185!4d77.5549663!9m1!1b1!16s%2Fg%2F11wvh_747r?entry=ttu"
                 target="_blank"
                 rel="noreferrer"
-                className="px-6 py-3 rounded-full bg-[#C5A059] hover:bg-[#B8860B] text-white font-sans-clean text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center gap-2 cursor-pointer"
+                className="px-5 py-2.5 sm:px-6 sm:py-3 rounded-full bg-[#C5A059] hover:bg-[#B8860B] text-white font-sans-clean text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all shadow-md flex items-center gap-2 cursor-pointer"
               >
                 <span>Write a Review on Google</span>
                 <ExternalLink size={14} />
@@ -544,7 +547,7 @@ export default function Contact({ setActiveTab }) {
                 href="https://www.google.com/maps/place/The+Dev+Photography/@29.981185,77.5523914,17z/data=!4m8!3m7!1s0xafad229d47f9bcd1:0xc72487cfc31f495c!8m2!3d29.981185!4d77.5549663!9m1!1b1!16s%2Fg%2F11wvh_747r?entry=ttu"
                 target="_blank"
                 rel="noreferrer"
-                className="px-6 py-3 rounded-xl bg-[#FFFCF6] border border-[#D4AF37]/50 hover:bg-[#F4E6D1] text-[#2C241D] font-sans-clean text-xs font-bold uppercase tracking-wider transition-all shadow-sm flex items-center gap-2 cursor-pointer"
+                className="px-5 py-2.5 sm:px-6 sm:py-3 rounded-xl bg-[#FFFCF6] border border-[#D4AF37]/50 hover:bg-[#F4E6D1] text-[#2C241D] font-sans-clean text-[10px] sm:text-xs font-bold uppercase tracking-wider transition-all shadow-sm flex items-center gap-2 cursor-pointer"
               >
                 <span>See More on Google Maps</span>
                 <ExternalLink size={14} className="text-[#B8860B]" />
@@ -552,26 +555,26 @@ export default function Contact({ setActiveTab }) {
             </div>
           </div>
 
-          {/* 8 Google Review Cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* 8 Google Review Cards Grid: 1 col on mobile, 2 on tablet, 4 on desktop */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {googleReviews.map((rev, idx) => (
               <div 
                 key={idx}
-                className="glass-luxury-panel rounded-3xl p-6 text-left flex flex-col justify-between space-y-4 shadow-md border border-[#D4AF37]/40 bg-[#FFFCF6]"
+                className="glass-luxury-panel rounded-3xl p-5 sm:p-6 text-left flex flex-col justify-between space-y-4 shadow-md border border-[#D4AF37]/40 bg-[#FFFCF6]"
               >
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="font-bodoni text-base font-bold text-[#2C241D]">
+                    <span className="font-bodoni text-base sm:text-lg font-bold text-[#2C241D] truncate pr-2">
                       {rev.name}
                     </span>
-                    <div className="flex text-amber-500 text-xs">
+                    <div className="flex text-amber-500 text-xs shrink-0">
                       {Array.from({ length: rev.rating }).map((_, i) => (
-                        <Star key={i} size={13} fill="currentColor" />
+                        <Star key={i} size={12} fill="currentColor" />
                       ))}
                     </div>
                   </div>
 
-                  <h4 className="font-bodoni text-lg font-bold text-[#B8860B] leading-tight">
+                  <h4 className="font-bodoni text-base sm:text-lg font-bold text-[#B8860B] leading-tight">
                     "{rev.snippet}"
                   </h4>
 
@@ -581,8 +584,8 @@ export default function Contact({ setActiveTab }) {
                 </div>
 
                 <div className="pt-3 border-t border-[#D4AF37]/30 flex items-center justify-between">
-                  <span className="font-mono-tech text-[10.5px] text-[#6B5B52] uppercase font-bold">Google Verified Review</span>
-                  <CheckCircle2 size={16} className="text-emerald-700" />
+                  <span className="font-mono-tech text-[9.5px] sm:text-[10.5px] text-[#6B5B52] uppercase font-bold">Google Verified</span>
+                  <CheckCircle2 size={15} className="text-emerald-700 shrink-0" />
                 </div>
               </div>
             ))}
