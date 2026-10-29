@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Films from './components/Films';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Dehradun from './components/Dehradun'; // 👈 Added Dehradun Branch Page Import
 
 // Secure Executive Control Panels
 import ClientVault from './panels/ClientVault';
@@ -180,6 +181,13 @@ export default function App() {
               {activeTab === 'portfolio' && <div className="animate-fade-in"><Portfolio setActiveTab={setActiveTab} /></div>}
               {activeTab === 'services' && <div className="animate-fade-in"><Services setActiveTab={setActiveTab} /></div>}
               {activeTab === 'contact' && <div className="animate-fade-in"><Contact setActiveTab={setActiveTab} /></div>}
+            </div>
+          )}
+
+          {/* 🏔️ DEHRADUN BRANCH DEDICATED VIEW */}
+          {currentView === 'dehradun' && (
+            <div className="w-full animate-fade-in">
+              <Dehradun setActiveTab={setActiveTab} />
             </div>
           )}
 
